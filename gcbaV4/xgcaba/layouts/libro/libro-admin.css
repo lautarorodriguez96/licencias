@@ -1,0 +1,13 @@
+aside {
+  float:left;
+  width:30%;
+}
+
+article {
+  float:right;
+  width:70%;
+}
+
+#estiloParaAdmin{
+	clear:both;
+}

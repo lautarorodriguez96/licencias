@@ -1,0 +1,30 @@
+/*
+ * #panel-panels-context-edit-mode para que solo tome la clase en la edición de panels
+ */
+#panel-panels-context-edit-mode .panel-bastrap-4,
+#panel-panels-context-edit-content .panel-bastrap-4 {
+	width: 32.9%;
+	margin: 10px 3px;
+	float: left;
+}
+
+#panel-panels-context-edit-mode .panel-bastrap-last,
+#panel-panels-context-edit-content .panel-bastrap-last {
+	clear: right;
+}
+#panel-panels-context-edit-mode .panel-bastrap-12,
+#panel-panels-context-edit-content .panel-bastrap-12 {
+	margin: 10px 3px;
+	clear: both;	
+}
+
+.panel-bastrap-4 {
+	width: 32%;
+	margin: 5px 0;
+	float: left;
+}
+.panel-bastrap-8 {
+	width: 65%;
+	margin: 5px 0;
+	float: left;
+}

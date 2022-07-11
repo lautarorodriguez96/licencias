@@ -1,0 +1,24 @@
+.borde{
+  border:solid red 1px;
+}
+
+
+/* ESTILOS BUSCADOR APRA */
+.lupa {
+    font-size: 1.4em !important;
+    position: absolute !important;
+    bottom: 0px !important;
+    right: 2% !important;
+    padding: 0 !important;
+    z-index: 2 !important;
+    display: block !important;
+    width: 34px !important;
+    height: 32px !important;
+    line-height: 34px !important;
+    text-align: center !important;
+    background: none !important;
+    box-shadow: none !important;
+    color: #A8A8A8 !important;
+    border:solid 1px red;
+
+  }

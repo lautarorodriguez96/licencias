@@ -1,0 +1,59 @@
+name = GCABA Nueva marca
+description = Theme BAstrapv7 responsive (Nueva Marca).
+core = 7.x
+base theme = bootstrap
+version = v1.1.0
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[navigation]     = 'Navigation'
+regions[header]         = 'Top Bar'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+regions[sidebar_first]  = 'Primary'
+regions[sidebar_second] = 'Secondary'
+regions[footer]         = 'Footer'
+regions[page_top]       = 'Page top'
+regions[page_bottom]    = 'Page bottom'
+regions[footer_social_media]	= 'Footer Social Media'
+regions[footer_first]	= 'Footer First'
+regions[footer_second]	= 'Footer Second'
+regions[footer_third]	= 'Footer Third'
+regions[footer_four]	= 'Footer Four'
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = css/fonts/open-sans.css
+stylesheets[all][] = css/fonts/material-icons-font.css
+stylesheets[all][] = bastrap/vendor/bootstrap/bootstrap.min.css
+stylesheets[all][] = bastrap/bastrap.css
+stylesheets[all][] = css/global.css
+stylesheets[all][] = css/buenosaires.css
+stylesheets[all][] = css/fixes-v3.css
+stylesheets[all][] = css/tags_noticias/tags_noticias.css
+
+; Panels layouts. You can place multiple layouts under the "layouts" folder.
+plugins[panels][layouts] = layouts
+
+
+; ;----------------------------------
+; ; METHOD 1: Bootstrap Source Files
+; ;----------------------------------
+; 
+; ;;;;;;;;;;;;;;;;;;;;;
+; ;; Scripts
+; ;;;;;;;;;;;;;;;;;;;;;
+
+scripts[] = bastrap/vendor/bootstrap/bootstrap.min.js
+scripts[] = js/buenosaires.js
+scripts[] = js/jquery.browser.min.js
+scripts[] = js/tags_noticias/tags_noticias.js
+scripts[] = js/custom-autocomplete.js
+
+settings[bootstrap_cdn] = ''
