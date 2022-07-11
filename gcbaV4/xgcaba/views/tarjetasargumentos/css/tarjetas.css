@@ -1,0 +1,62 @@
+
+
+.tarjetasGris{
+    margin-top: 10px !important;
+    padding: 50px !important;
+    margin-bottom: 30px !important;
+    background-color: #e5e5e5 !important;
+    
+}
+.tarjetasBlanco{
+    padding: 20px !important;
+    margin-bottom: 10px !important;
+    background-color: #FFF !important;
+    
+}
+
+.row {
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.img-card {
+    width: 96%;
+    margin: 2% !important;
+}
+
+.card-chica {
+    height: 500px !important;
+}
+
+.card-grande {
+   height: 700px !important;
+}
+
+.thumbnail {
+    padding: 0 !important;
+    cursor: pointer;
+}
+
+.caption {
+    padding: 15px !important;
+}
+
+
+@media only screen and (max-width: 768px) {
+ 
+ .tarjetas {
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+   padding-bottom: 40px;
+   
+}
+
+}
+
+@media only screen and (max-width: 425px) {
+  .tarjetas {
+    padding: 30px 10px;
+}
+
+}
